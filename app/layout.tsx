@@ -19,7 +19,7 @@ const openSans = Open_Sans({
 })
 
 export const metadata: Metadata = {
-  title: "Fitness Guide",
+  title: "Preetam's fitness",
   description: "Simple workouts, nutrition tips, and progress tracking",
     generator: 'v0.dev'
 }

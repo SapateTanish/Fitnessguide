@@ -39,7 +39,7 @@ export default function ProgressPage() {
 
   // Load entries from localStorage on component mount
   useEffect(() => {
-    const savedEntries = localStorage.getItem("fitnessProgress")
+    const savedEntries = localStorage.getItem("preetamsFitnessProgress")
     if (savedEntries) {
       setEntries(JSON.parse(savedEntries))
     }
@@ -47,7 +47,7 @@ export default function ProgressPage() {
 
   // Save entries to localStorage whenever they change
   useEffect(() => {
-    localStorage.setItem("fitnessProgress", JSON.stringify(entries))
+    localStorage.setItem("preetamsFitnessProgress", JSON.stringify(entries))
   }, [entries])
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {

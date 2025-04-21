@@ -19,7 +19,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 w-full z-50">
       <nav className="bg-gradient-to-r from-blue-100 to-blue-200 dark:from-gray-800 dark:to-gray-700 h-20 flex items-center justify-between px-4 md:px-10 lg:px-[360px] transition-colors duration-300">
         <Link href="/" className="font-heading text-2xl font-bold text-accent dark:text-blue-400">
-          Fitness Guide
+          Preetam's fitness
         </Link>
 
         {/* Desktop Navigation & Theme Toggle */}
